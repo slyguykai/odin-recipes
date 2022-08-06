@@ -1,0 +1,54 @@
+/* recipes.css */
+
+/* * {
+    color:whitesmoke
+    background-color:palegreen
+} */
+
+
+body {
+   /* background-color: forestgreen;
+    text-align:center; */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    color:aliceblue;
+    font-size:xx-large;
+    width:500px;
+    margin:0 auto;
+    
+}
+h1 {
+    text-align: center;
+    color:aliceblue;
+    font-weight:bold;
+    font-size:xxx-large;
+}
+ul {
+  background: rgba(255,84,104,0.3);
+  border: 2px solid rgb(255,84,104);
+  padding: 10px;
+  margin: 10px;
+
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  width: 200px;
+  background-color:inherit;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a{
+    display: inline;
+    color:inherit;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+span {
+    background: rgb(238,174,202);
+    border: 1px solid black;
+}
